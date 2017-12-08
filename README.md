@@ -31,8 +31,15 @@ _Run the following commands in Terminal:_
 8. `$ rails s`
 9. _Navigate to localhost:3000_
 
+_To use Stripe for credit card payment:_
+
+1. _Visit [Stripe](https://dashboard.stripe.com/login)_
+2. _Login or create an account to get your API keys._
+3. _Paste the following text in the .env file and add your own API keys:_
+` PUBLISHABLE_KEY=your key here`
+`SECRET_KEY=your key here`
+
 ## Known Bugs
-* _Cart does not refresh after adding or deleting items._
 
 ## Support and contact details
 _If you have questions, comments, or concerns, please contact [Margaret](codeberry1@gmail.com).  Feel free to make a contribution to the code._
