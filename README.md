@@ -5,7 +5,7 @@
 #### By _**Margaret Berry**_
 
 ## Description and Project Goals
-_The lead developer of this e=commerce site quit abruptly and moved to Bali. The goal of this project was to add AJAX to the site and refactor it._
+_The lead developer of this e-commerce site quit abruptly and moved to Bali. The goal of this project was to add AJAX to the site and refactor it._
 
 ## Changes Made
 * _Add a validation for quantity in order_item.rb_
