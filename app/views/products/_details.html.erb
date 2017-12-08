@@ -1,5 +1,7 @@
-<p><%= @product.name %></p>
-<p><%= @product.description %></p>
-<p><%= number_to_currency @product.price %></p>
-<img src="<%= @product.image %>">
-<button type="button" name="button"></button>
+<div id='detail_div'>
+  <p><%= @product.name %></p>
+  <p><%= @product.description %></p>
+  <p><%= number_to_currency @product.price %></p>
+  <img src="<%= @product.image %>">
+  <button id="hide">Hide details</button>
+</div>

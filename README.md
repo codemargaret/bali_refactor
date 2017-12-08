@@ -14,7 +14,7 @@ _The lead developer of this e-commerce site quit abruptly and moved to Bali. The
 * _Add stripe, bootstrap, paperclip, and admin gems._
 * _Add and delete items from cart using AJAX._
 * _Add image property to products._
-* _Show product details with AJAX._
+* _Show and hide product details with AJAX._
 * _Add validation to prevent users from ordering negative quantities of items._
 
 ## Setup/Installation Requirements
@@ -33,7 +33,6 @@ _Run the following commands in Terminal:_
 
 ## Known Bugs
 * _Cart does not refresh after adding or deleting items._
-* _Can't hide product details after they are shown._
 
 ## Support and contact details
 _If you have questions, comments, or concerns, please contact [Margaret](codeberry1@gmail.com).  Feel free to make a contribution to the code._

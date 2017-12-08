@@ -1,1 +1,6 @@
 $('#product_details_link').hide().after('<%= j render("details") %>')
+
+$('#hide').click(function() {
+  $('#product_details_link').show();
+  $('#detail_div').hide();
+});
