@@ -9,6 +9,9 @@ _The lead developer of this e-commerce site quit abruptly and moved to Bali. The
 
 ## Changes Made
 * _Add a validation for quantity in order_item.rb_
+* _Remove turbolinks._
+* _Add testing gems._
+* _Add stripe, bootstrap, paperclip, and admin gems._
 
 ## Setup/Installation Requirements
 _Uses `bcrypt` and `materialize`._
