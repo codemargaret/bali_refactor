@@ -12,6 +12,7 @@ _The lead developer of this e-commerce site quit abruptly and moved to Bali. The
 * _Remove turbolinks._
 * _Add testing gems._
 * _Add stripe, bootstrap, paperclip, and admin gems._
+* _Add and delete items from cart using AJAX._
 
 ## Setup/Installation Requirements
 _Uses `bcrypt` and `materialize`._
@@ -28,7 +29,7 @@ _Run the following commands in Terminal:_
 9. _Navigate to localhost:3000_
 
 ## Known Bugs
-_There are no known bugs at this time._
+_Cart does not refresh after adding or deleting items._
 
 ## Support and contact details
 _If you have questions, comments, or concerns, please contact [Margaret](codeberry1@gmail.com).  Feel free to make a contribution to the code._
