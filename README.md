@@ -15,6 +15,7 @@ _The lead developer of this e-commerce site quit abruptly and moved to Bali. The
 * _Add and delete items from cart using AJAX._
 * _Add image property to products._
 * _Show product details with AJAX._
+* _Add validation to prevent users from ordering negative quantities of items._
 
 ## Setup/Installation Requirements
 _Uses `bcrypt` and `materialize`._
