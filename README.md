@@ -13,6 +13,7 @@ _The lead developer of this e-commerce site quit abruptly and moved to Bali. The
 * _Add testing gems._
 * _Add stripe, bootstrap, paperclip, and admin gems._
 * _Add and delete items from cart using AJAX._
+* _Add image property to products._
 
 ## Setup/Installation Requirements
 _Uses `bcrypt` and `materialize`._
