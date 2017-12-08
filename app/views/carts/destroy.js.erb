@@ -1,1 +1,3 @@
 $('#delete_item<%= @item.id%>').remove();
+$('#total').text('Your total: <%= number_to_currency current_order.total_price %>');
+$('#cart').text('Total items: <%= cart_items %>');
