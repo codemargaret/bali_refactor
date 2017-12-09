@@ -19,7 +19,8 @@ _The lead developer of this e-commerce site quit abruptly and moved to Bali. The
 * _Add stripe so users can pay with a credit card._
 * _Add flash messages for signing in and out._
 * _Add an admin portal._
-* _Add create, update, and destroy for products._
+* _Add create, update, and destroy for products with flash messages._
+* _Add product validations._
 
 ## Setup/Installation Requirements
 _Uses `bcrypt` and `materialize`._
