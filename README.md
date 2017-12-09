@@ -18,6 +18,8 @@ _The lead developer of this e-commerce site quit abruptly and moved to Bali. The
 * _Add validation to prevent users from ordering negative quantities of items._
 * _Add stripe so users can pay with a credit card._
 * _Add flash messages for signing in and out._
+* _Add an admin portal._
+* _Add create, update, and destroy for products._
 
 ## Setup/Installation Requirements
 _Uses `bcrypt` and `materialize`._
@@ -43,6 +45,7 @@ _To use Stripe for credit card payment:_
 
 ## Known Bugs
 * _Stripe does not currently charge the correct amount._
+* _The product CRUD functionality has not been tested._
 
 ## Support and contact details
 _If you have questions, comments, or concerns, please contact [Margaret](codeberry1@gmail.com).  Feel free to make a contribution to the code._
