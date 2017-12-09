@@ -47,6 +47,9 @@ _To use Stripe for credit card payment:_
 ## Known Bugs
 * _Stripe does not currently charge the correct amount._
 * _The product CRUD functionality has not been tested._
+* _Item count only shows how many types of items, not how many total items._
+* _Product details all show up on the left side of the page instead of under the product._
+* _No testing in place._
 
 ## Support and contact details
 _If you have questions, comments, or concerns, please contact [Margaret](codeberry1@gmail.com).  Feel free to make a contribution to the code._
