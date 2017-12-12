@@ -21,6 +21,8 @@ _The lead developer of this e-commerce site quit abruptly and moved to Bali. The
 * _Add an admin portal._
 * _Add create, update, and destroy for products with flash messages._
 * _Add product validations._
+* _Add unit testing._
+* _Add product creation for admins that allows non-whole dollar amounts._
 
 ## Setup/Installation Requirements
 _Uses `bcrypt` and `materialize`._
@@ -45,9 +47,7 @@ _To use Stripe for credit card payment:_
 `SECRET_KEY=your key here`
 
 ## Known Bugs
-* _The product CRUD functionality has not been tested._
-* _Item count only shows how many types of items, not how many total items._
-* _No testing in place._
+* _The product update and delete functionality has not been tested._
 
 ## Support and contact details
 _If you have questions, comments, or concerns, please contact [Margaret](codeberry1@gmail.com).  Feel free to make a contribution to the code._
