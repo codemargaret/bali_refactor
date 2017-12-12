@@ -1,7 +1,7 @@
-<div id='detail_div'>
+<div id='detail_div<%= @product.id %>'>
   <p><%= @product.name %></p>
   <p><%= @product.description %></p>
   <p><%= number_to_currency @product.price %></p>
   <img src="<%= @product.image %>">
-  <button id="hide">Hide details</button>
+  <button id="hide<%= @product.id %>">Hide details</button>
 </div>

@@ -45,10 +45,8 @@ _To use Stripe for credit card payment:_
 `SECRET_KEY=your key here`
 
 ## Known Bugs
-* _Stripe does not currently charge the correct amount._
 * _The product CRUD functionality has not been tested._
 * _Item count only shows how many types of items, not how many total items._
-* _Product details all show up on the left side of the page instead of under the product._
 * _No testing in place._
 
 ## Support and contact details
