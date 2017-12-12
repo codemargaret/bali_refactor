@@ -4,4 +4,6 @@ class OrderItem < ApplicationRecord
 
   validates :quantity, :presence => true
   validates :quantity, :inclusion => { :in => 1..1000 }
+  validates :product_id, :presence => true
+  validates :order_id, :presence => true
 end
