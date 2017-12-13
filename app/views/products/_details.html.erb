@@ -4,4 +4,9 @@
   <p><%= number_to_currency @product.price %></p>
   <img src="<%= @product.image %>">
   <button id="hide<%= @product.id %>">Hide details</button>
+
+  <% if admin %>
+  <p><%= link_to "Edit Product", '/sign_out' %></p>
+  <p><%= link_to "Delete Product", '/sign_out' %></p>
+  <% end %>
 </div>
