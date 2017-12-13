@@ -7,22 +7,22 @@
 ## Description and Project Goals
 _The lead developer of this e-commerce site quit abruptly and moved to Bali. The goal of this project was to add AJAX to the site and refactor it._
 
-## Changes Made
+## Refactoring
 * _Add a validation for quantity in order_item.rb_
-* _Remove turbolinks._
-* _Add testing gems._
-* _Add stripe, bootstrap, paperclip, and admin gems._
 * _Add and delete items from cart using AJAX._
 * _Add image property to products._
 * _Show and hide product details with AJAX._
-* _Add validation to prevent users from ordering negative quantities of items._
 * _Add stripe so users can pay with a credit card._
 * _Add flash messages for signing in and out._
-* _Add an admin portal._
+* _Set up admin capabilities with rails_admin gem._
 * _Add create, update, and destroy for products with flash messages._
 * _Add product validations._
-* _Add unit testing._
 * _Add product creation for admins that allows non-whole dollar amounts._
+
+## Other Changes Made
+* _Remove turbolinks._
+* _Add testing, stripe, bootstrap, paperclip, and admin gems._
+* _Add unit testing._
 
 ## Setup/Installation Requirements
 _Uses `bcrypt` and `materialize`._
