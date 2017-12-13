@@ -2,7 +2,6 @@ class Order < ApplicationRecord
   has_many :order_items
   belongs_to :user, optional: true
 
-  validates :user_id, :presence => true
   validates :total_price, :presence => true
   validates :status, :presence => true
 
