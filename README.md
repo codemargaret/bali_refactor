@@ -23,6 +23,7 @@ _The lead developer of this e-commerce site quit abruptly and moved to Bali. The
 * _Remove turbolinks._
 * _Add testing, stripe, bootstrap, and admin gems._
 * _Add unit testing._
+* _Add interface for admins to manage data._
 
 ## Setup/Installation Requirements
 _Uses `bcrypt` and `materialize`._
