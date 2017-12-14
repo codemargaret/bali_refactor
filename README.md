@@ -8,20 +8,20 @@
 _The lead developer of this e-commerce site quit abruptly and moved to Bali. The goal of this project was to add AJAX to the site and refactor it._
 
 ## Refactoring
-* _Add a validation for quantity in order_item.rb_
 * _Add and delete items from cart using AJAX._
-* _Add image property to products._
 * _Show and hide product details with AJAX._
-* _Add stripe so users can pay with a credit card._
-* _Add flash messages for signing in and out._
-* _Set up admin capabilities with rails_admin gem._
-* _Add create, update, and destroy for products with flash messages._
+* _Add a validation for quantity in order_item.rb_
 * _Add product validations._
-* _Add product creation for admins that allows non-whole dollar amounts._
+* _Add image property to products._
+* _Add flash messages for signing in and out._
+* _Add stripe so users can pay with a credit card._
+* _Add ability to create, update, and destroy products for admins._
+* _Add flash messages for creating, updating, and destroying products._
+* _Allow products to be created with non-whole dollar amounts._
 
 ## Other Changes Made
 * _Remove turbolinks._
-* _Add testing, stripe, bootstrap, paperclip, and admin gems._
+* _Add testing, stripe, bootstrap, and admin gems._
 * _Add unit testing._
 
 ## Setup/Installation Requirements
