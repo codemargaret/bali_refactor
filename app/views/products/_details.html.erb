@@ -7,6 +7,8 @@
 
   <% if admin %>
   <p><%= link_to "Edit Product", edit_product_path(@product) %></p>
-  <p><%= link_to "Delete Product", '/sign_out' %></p>
+  <p><%= link_to "Delete Product", @product, method: :delete, data: {confirm: "Are you sure?" } %></p>
+
   <% end %>
+
 </div>
