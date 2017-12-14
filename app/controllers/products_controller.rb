@@ -32,7 +32,7 @@ class ProductsController < ApplicationController
   def update
     @product = Product.find(params[:id])
     if @product.update(product_params)
-      flash[:notice] = "Your product has been updated."
+      flash[:notice] = "Your product has been deleted."
       redirect_to '/'
     else
       flash[:notice] = "There were some problems. Please try again."
@@ -43,6 +43,7 @@ class ProductsController < ApplicationController
   def destroy
     @product = Product.find(params[:id])
     @product.destroy
+    flash[:notice] = "Your product has been deleted."
     respond_to do |format|
       format.html { redirect_to products_path }
       format.js { render 'products/destroy' }
