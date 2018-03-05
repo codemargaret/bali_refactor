@@ -17,7 +17,7 @@ gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'bcrypt', '~> 3.1.7'
 gem 'materialize-sass'
 gem 'devise', '~> 4.3'
-gem 'rails_admin', '~> 1.2'
+gem 'rails_admin', '~> 1.3.0'
 gem 'rest-client'
 gem 'stripe'
 
